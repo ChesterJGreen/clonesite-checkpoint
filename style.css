@@ -60,7 +60,8 @@ background: linear-gradient(90deg, rgba(36,0,0,0.1407913507199755) 0%, rgba(0,10
 
 .cardmed {
   background: white;
-  height: 40vh;
+  height: 50vh;
+  width: 100px;
   box-shadow: 4px 4px 15px 2px black;
 }
 
@@ -70,13 +71,21 @@ background: linear-gradient(90deg, rgba(36,0,0,0.1407913507199755) 0%, rgba(0,10
 }
 .placeholder-img {
   background-size: 40vh 20vw;
-  background-image: url(https://images.unsplash.com/photo-1608889175638-9322300c46e8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80);
+  background-image: url(https://wallpaperaccess.com/full/440113.jpg);
+  background-size: cover;
+  background-position: top;
+
 }
 
 .pic-col {
-  max-height: 40vh;
+  max-height: 60vh;
 }
 
 .rowmo {
   min-height: 60vh;
+}
+
+.bg-under {
+  background: rgb(36,0,0);
+background: radial-gradient(circle, rgba(36,0,0,0.1407913507199755) 0%, rgba(0,106,255,0.9458158263305322) 0%, rgba(121,9,9,0.4433123591233369) 57%);
 }
