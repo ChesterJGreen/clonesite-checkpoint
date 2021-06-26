@@ -15,16 +15,21 @@ h2{
 
 .hero-img {
   min-height: 60vh;
-  background-image: url(https://images.unsplash.com/photo-1594463750939-ebb28c3f7f75?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
-  background-size: contain;
-  background-position: center;
+  background-image: url(https://images.unsplash.com/photo-1569003339405-ea396a5a8a90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-position: top;
 }
 
-.linebytext {
-  border-width: 3em;
-  border-right: 2px white;
-  line-height: 15px;
+.her02-img {
+  min-height: 60vh;
+  background-size: cover;
+background: linear-gradient(90deg, rgba(36,0,0,0.1407913507199755) 0%, rgba(0,106,255,0.9458158263305322) 0%, rgba(9,9,121,0.5497549361541492) 100%);
 }
+
+.thicken {
+  border-left: medium solid rgb(255, 255, 255);
+}
+
 
 .bg-green {
   background-color: lightgreen;
@@ -36,6 +41,7 @@ h2{
 }
 
 .card {
+  position: -50px;
   background: white;
   padding: 2rem;
   box-shadow: 4px 4px 15px 2px black;
@@ -43,9 +49,14 @@ h2{
 
 .cardsmall {
   background: white;
-  padding: 2rem;
+  height: 25vh;
+  
   box-shadow: 4px 4px 15px 2px black;
  
+}
+
+.whitemidsection {
+  min-height: 50vh;
 }
 
 .cardmed {
@@ -54,8 +65,19 @@ h2{
   box-shadow: 4px 4px 15px 2px black;
 }
 
-
+.topcard {
+  left: 20px;
+  top: 50px;
+}
 .placeholder-img {
-  background-size: 35vh 20vw;
+  background-size: 40vh 20vw;
   background-image: url(https://images.unsplash.com/photo-1593296618860-4cbcb8dafab2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+}
+
+.pic-col {
+  max-height: 40vh;
+}
+
+.rowmo {
+  min-height: 50vh;
 }
