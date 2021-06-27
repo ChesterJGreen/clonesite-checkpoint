@@ -49,8 +49,9 @@ background: linear-gradient(90deg, rgba(36,0,0,0.1407913507199755) 0%, rgba(0,10
 
 .cardsmall {
   background: white;
-  height: 25vh;
-    box-shadow: 4px 4px 15px 2px black;
+  box-shadow: 4px 4px 15px 2px black;
+  background-size: contain;
+  padding: 12px;
  
 }
 
@@ -58,22 +59,16 @@ background: linear-gradient(90deg, rgba(36,0,0,0.1407913507199755) 0%, rgba(0,10
   min-height: 50vh;
 }
 
-.cardmed {
-  background: white;
-  height: 50vh;
-  width: 100px;
-  box-shadow: 4px 4px 15px 2px black;
-}
-
 .topcard {
   left: 20px;
-  top: 50px;
+  top: 200px;
 }
 .placeholder-img {
   background-size: 40vh 20vw;
   background-image: url(https://wallpaperaccess.com/full/440113.jpg);
   background-size: cover;
   background-position: top;
+  box-shadow: 4px 4px 15px 2px black;
 
 }
 
