@@ -70,7 +70,8 @@ background: linear-gradient(90deg, rgba(36,0,0,0.1407913507199755) 0%, rgba(0,10
   top: 200px;
 }
 .placeholder-img {
-  
+  height: 500px;
+  width: 400px;
   background-image: url(https://wallpaperaccess.com/full/440113.jpg);
   background-size: cover;
   background-position: top;
