@@ -43,12 +43,8 @@ background: linear-gradient(90deg, rgba(36,0,0,0.1407913507199755) 0%, rgba(0,10
 .card {
   position: -50px;
   background: white;
-  padding: 12px;
+  padding: 2rem;
   box-shadow: 4px 4px 15px 2px black;
-}
-
-.card-row {
-  margin-top: 10pt;
 }
 
 .cardsmall {
@@ -56,8 +52,6 @@ background: linear-gradient(90deg, rgba(36,0,0,0.1407913507199755) 0%, rgba(0,10
   box-shadow: 4px 4px 15px 2px black;
   background-size: contain;
   padding: 12px;
-  margin-top: 12px;
-  margin-bottom: 12px;
  
 }
 
@@ -70,7 +64,7 @@ background: linear-gradient(90deg, rgba(36,0,0,0.1407913507199755) 0%, rgba(0,10
   top: 200px;
 }
 .placeholder-img {
-  
+  background-size: 40vh 20vw;
   background-image: url(https://wallpaperaccess.com/full/440113.jpg);
   background-size: cover;
   background-position: top;
@@ -79,7 +73,7 @@ background: linear-gradient(90deg, rgba(36,0,0,0.1407913507199755) 0%, rgba(0,10
 }
 
 .pic-col {
-  max-height: 425px;
+  max-height: 60vh;
 }
 
 .rowmo {
@@ -95,54 +89,33 @@ background: linear-gradient(90deg, rgba(36,0,0,0.1407913507199755) 0%, rgba(0,10
 @media only screen and (max-width: 768px) {
   .disapp { 
     display: none;
-  }
-
- 
+}
   .hero-img {
     background-image: none;
     background: rgb(36,0,0);
-    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(9,9,121,1) 30%, rgba(0,106,255,0.9458158263305322) 100%);  }
-  
-
-    .topdflex {
+    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(9,9,121,1) 30%, rgba(0,106,255,0.9458158263305322) 100%);
+  }
+  .topdflex {
     display: flex;
   }
-
-  .small-order-1 {
-    order: 1;
-  }
-
-  .small-order-2 {
-    order: 2;
-  }
-
-  .small-order-3 {
-    order: 3;
-  }
-
   .positionremove {
-    position: static !important;
+    position: static;
   }
-  .formadjust {
-    padding-left: 8px !important;
-    padding-right: 8px !important;
-    margin-bottom: 8px !important;
-  }
- 
-
-  .pic-col {
-    height: 300px !important;
-    width: 300px !important;
-   
-  } 
-  
 }
 
 
-#header {
-  position: fixed;
+#page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
 #content {
-  margin-top: 100px;
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
 }

@@ -36,11 +36,11 @@
   }
 </style>
 
-<body class="">
+<body class="debug">
 
   <header class="container-fluid bg-blue text-light sticky-top">
     <div class="">
-      <div class="row pl-4 text-light">
+      <div class="row px-4 text-light">
         <!-- Image and text -->
         <nav class=" d-flex navbar navbar-dark text-light">
           <a class="navbar-brand d-flex" href="#">
@@ -60,83 +60,72 @@
 
     <!-- Background to End of First Container -->
     <div class="row hero-img">
-      <div class="col">
-        <div class="row">
-          <!-- Form -->
-          <div class="col-12 col-sd-12 my-3 px-5 text-light"><b>Welcome!</b>
+      <!-- Form -->
+      <div class="col-12 my-3 px-5 text-light"><b>Welcome!</b>
 
-          </div>
-        </div>
-        <div class="row formadjust justify-content-center">
-          <div class="col-md-3 col-sd-12 mb-5 py-2 px-3 bg-white rounded shadow">
-            <form class="needs-validation" novalidate>
-              <div class="form-row">
-                <div class="col-12 mb-3">
-                  <label for="validationTooltip01">
-                    <h6>Become a Subscriber</h6>
-                  </label>
-                  <input type="text" class="form-control" id="validationTooltip01" placeholder="Name" required>
-                  <div class="valid-tooltip">
-                    Looks good!
-                  </div>
-                </div>
-                <div class="col-12 mb-3">
-                  <input type="text" class="form-control" id="validationTooltip02" placeholder="Email" required>
-                  <div class="valid-tooltip">
-                    Please provide a valid city.
-                  </div>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="col-8 mb-3">
-                  <input type="text" class="form-control" id="validationTooltip03" placeholder="Phone" required>
-                  <div class="invalid-tooltip">
-                    Please provide a valid phone #
-                  </div>
-                </div>
-                <div class="col-4 mb-3">
-                  <input type="text" class="form-control" id="validationTooltip03" placeholder="Ext.">
-
-                </div>
-                <div class="col-12 mb-3">
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                    placeholder="Message"></textarea>
-                </div>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                  By checking this box you agree to have your email address shared with the entire planet
-                </label>
-              </div>
-              <button class="btn btn-primary my-2" type="submit">Submit form</button>
-            </form>
-          </div>
-          <!-- Side Text -->
-          <div class="col-8 disapp">
-            <div class="row bg-under m-3 row-sd-0">
-              <div class="col-2"></div>
-              <div class="col-9 text-light border-left border-light thicken ml-3 p-5">
-                <H2>The Captain</H2>
-                <p class="toptext font-weight-bold">
-                  Have his days in the Marvel Universe come to an end? Or will his central role find a place in the
-                  Universe
-                  again?
+      </div>
+      <div class="col-3 mx-5 mb-5 py-2 px-3 bg-white rounded shadow">
+        <form class="needs-validation" novalidate>
+          <div class="form-row">
+            <div class="col-md-12 mb-3">
+              <label for="validationTooltip01">
+                <h6>Become a Subscriber</h6>
+              </label>
+              <input type="text" class="form-control" id="validationTooltip01" placeholder="Name" required>
+              <div class="valid-tooltip">
+                Looks good!
               </div>
             </div>
-            <div class="row">
-              <div class="col-12"></div>
+            <div class="col-md-12 mb-3">
+              <input type="text" class="form-control" id="validationTooltip02" placeholder="Email" required>
+              <div class="valid-tooltip">
+                Please provide a valid city.
+              </div>
             </div>
           </div>
-        </div>
+          <div class="form-row">
+            <div class="col-md-8 mb-3">
+              <input type="text" class="form-control" id="validationTooltip03" placeholder="Phone" required>
+              <div class="invalid-tooltip">
+                Please provide a valid phone #
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <input type="text" class="form-control" id="validationTooltip03" placeholder="Ext.">
+
+            </div>
+            <div class="col-md-12 mb-3">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+            </div>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+              By checking this box you agree to have your email address shared with the entire planet
+            </label>
+          </div>
+          <button class="btn btn-primary my-2" type="submit">Submit form</button>
+        </form>
       </div>
 
-
-
-
+      <!-- Side Text -->
+      <div class="col-6 disapp">
+        <div class="row bg-under m-3 row-sd-0">
+          <div class="col-2"></div>
+          <div class="col-9 text-light border-left border-light thicken ml-3 p-5">
+            <H2>The Captain</H2>
+            <p class="toptext font-weight-bold">
+              Have his days in the Marvel Universe come to an end? Or will his central role find a place in the Universe
+              again?
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12"></div>
+        </div>
+      </div>
     </div>
     <!-- Bottom of Landing Page/Background Image -->
-    <div class="row bg-blue p-3 topflex">
+    <div class="row bg-blue py-3 topflex">
       <!-- Text -->
       <div class="col-md-5 text-light small-order-2">
         <div class="row d-flex flex-wrap">
@@ -152,32 +141,25 @@
       <div class="col-md-7 small-order-1">
         <div class="row">
           <!-- Card -->
-          <div class="col-md-10 col-sd-12">
-            <div class="row card position-absolute positionremove">
+          <div class="col-md-10">
+            <div class="row card mt-5 position-absolute">
               <div class="col">
                 <div class="row card-row">
-                  <h6><span class="mdi mdi-checkbox-marked">
-                      Born and Raised in Brooklyn, New York, USA</span></h6>
+                  <a class="float-left" href=""><i class="mdi mdi-checkbox-marked"></i></a>
+                  <h6>Born and Raised in Brooklyn, New York, USA</h6>
                 </div>
-                <div class="row card-row">
-                  <h6><span class="mdi mdi-checkbox-marked">
-                      Developed a healthy attitude</span></h6>
+                <div class="row card-row"><a class="float-left" href=""><i class="mdi mdi-checkbox-marked"></i></a>
+                  <h6>Developed a healthy attitude</h6>
                 </div>
-                <div class="row card-row">
-                  <h6><span class="mdi mdi-flask-empty-outline">
-                      Ingested Super Soldier Serum</span></h6>
+                <div class="row  card-row"><a class="float-left" href=""><i class="mdi mdi-checkbox-marked"></i></a>
+                  <h6>Consumed Super Soldier Serum</h6>
                 </div>
-                <div class="row card-row">
-                  <h6><span class="mdi mdi-checkbox-marked">
-                      Helped protect people from bullies</span></h6>
+                <div class="row card-row"><a class="float-left" href=""><i class="mdi mdi-checkbox-marked"></i></a>
+                  <h6>Helped protect people from bullies</h6>
                 </div>
-                <div class="row card-row">
-                  <h6><span class="mdi mdi-checkbox-marked">
-                      Brought back half of life throughout the Universe</span></h6>
+                <div class="row card-row"><a class="float-left" href=""><i class="mdi mdi-checkbox-marked"></i></a>
+                  <h6>Brought back half of life throughout the Universe</h6>
                 </div>
-
-
-
               </div>
             </div>
 
@@ -191,18 +173,18 @@
     <!-- White Background section -->
     <div class="row whitemidsection p-5">
       <!-- Large Placeholder Image -->
-      <div class="col-md-3 col-sd-12 pic-col placeholder-img">
+      <div class="col-3 pic-col placeholder-img mr-5">
         <img srv="">
       </div>
-      <div class="col-md-8 col-sd-12 p-3">
+      <div class="col-8 p-3">
         <!-- Icon with Text -->
         <div class="row pt-5">
-          <div class="col-md-11 col-sd-12 pt-5">
+          <div class="col-11 pl-5 pt-5">
             <h1><i class="mdi mdi-shield-star mdi-48px">
-                Captain America, the HERO we want and need. Even Thanos can't stop him! And heaven knows he tried!
+                Captain America, the HERO we want and need. Even Thanos can't stop him!
               </i></h1>
           </div>
-          <div class="col-md-11 col-sd-12">
+          <div class="col-11 pl-5">
             In 2018, twenty-three days after Thanos killed half of all life in the universe, Carol Danvers rescues
             Tony Stark and Nebula from deep space and they reunite with the remaining Avengers—Bruce Banner, Steve
             Rogers, Thor, Natasha Romanoff, and James Rhodes—and Rocket on Earth.
@@ -223,7 +205,7 @@
           <div class="row d-flex rowmo justify-content-center align-content-center">
             <!-- card 1 -->
 
-            <div class="col-md-3 col-sd-12 mx-4 align-self-center small-order-2">
+            <div class="col-3 mx-4 align-self-center small-order-2">
               <div class="row cardsmall text-center ">
                 <h3>"Surrender??!! You think this letter on my head stands for France?"</h3>
                 <h6>- Captain America</h6>
@@ -231,7 +213,7 @@
             </div>
 
             <!-- card 2 - Big -->
-            <div class="col-md-3 col-sd-12 mx-4 align-middle cardsmall align-self-center small-order-1">
+            <div class="col-3 mx-4 align-middle cardsmall align-self-center small-order-1">
 
               <!-- Images -->
               <div class="row justify-content-center justify-content-around">
@@ -250,7 +232,7 @@
             </div>
 
             <!-- card 3  -->
-            <div class="col-md-3 cold-sd-12 align-middle mx-4 align-self-center small-order-3">
+            <div class="col-3 align-middle mx-4 align-self-center small-order-3">
               <div class="row cardsmall text-center py-3">
                 <h3>"Keep flying, son. And watch that potty mouth!"</h3>
                 <h6>- Captain America</h6>
